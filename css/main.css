@@ -1334,6 +1334,9 @@ pre .javascript .function {
 .posts-expand .post-body .fancybox img {
   margin: 0 auto 25px;
 }
+.post-meta {
+  text-align: center !important;
+}
 @media (max-width: 767px) {
   .posts-collapse {
     margin: 0 20px;
@@ -1342,7 +1345,6 @@ pre .javascript .function {
   .posts-collapse .post-meta {
     display: block;
     width: auto;
-    text-align: left;
   }
 }
 .posts-collapse {
@@ -1453,7 +1455,7 @@ pre .javascript .function {
   display: none;
 }
 .posts-expand .post-title {
-  text-align: center;
+  text-align: center !important;
   word-break: break-word;
   font-weight: 400;
 }
@@ -1822,7 +1824,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff6933;
+  background: #044dff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2817,7 +2819,6 @@ hr {
 }
 .post-button {
   margin-top: 20px;
-  text-align: left;
 }
 .post-button a {
   padding: 0;
